@@ -1,7 +1,6 @@
 name: hello-world
 on: [push]
 jobs:
- 	build:
  		rusn-on: ubuntu-latest
  		steps: 
  		- run: make say-hello
